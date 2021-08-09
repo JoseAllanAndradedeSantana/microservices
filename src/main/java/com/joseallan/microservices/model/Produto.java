@@ -3,7 +3,7 @@ package com.joseallan.microservices.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "produto", type="catalogo")
+@Document(indexName = "produto")
 public class Produto {
     @Id
     private Long id;
